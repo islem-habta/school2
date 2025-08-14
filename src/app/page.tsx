@@ -21,7 +21,7 @@ const SchoolDashboard = () => {
           className="flex items-center justify-center lg:justify-start gap-2 mb-6"
         >
           <Image src="/logo.png" alt="logo" width={32} height={32} />
-          <span className="hidden lg:block font-bold text-lg">School Dashboard</span>
+          <span className="hidden lg:block font-bold text-lg">HappySchool</span>
         </Link>
         <Menu />
       </div>

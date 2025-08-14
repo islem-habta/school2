@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HappySchool Dashboard
 
-## Getting Started
+A modern, responsive school management dashboard built with Next.js 14, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Admin Dashboard** - Complete school management interface
+- **User Management** - Students, Teachers, Parents, and Staff
+- **Analytics & Charts** - Attendance, Finance, and Performance tracking
+- **Event Calendar** - School events and scheduling
+- **Announcements** - School-wide communication
+- **Responsive Design** - Works on desktop, tablet, and mobile
+- **Modern UI** - Clean and intuitive interface
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Charts:** Chart.js
+- **Icons:** Custom SVG icons
+- **Deployment:** Vercel
+
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/islem-habta/school2.git
+   cd school2
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🏗️ Project Structure
+
+```
+src/
+├── app/
+│   ├── (dashboard)/
+│   │   ├── admin/          # Admin dashboard
+│   │   ├── student/        # Student dashboard
+│   │   ├── teacher/        # Teacher dashboard
+│   │   ├── parent/         # Parent dashboard
+│   │   └── list/           # Data management pages
+│   ├── sign-in/            # Authentication
+│   └── page.tsx            # Main dashboard page
+├── components/             # Reusable components
+│   ├── forms/              # Form components
+│   ├── charts/             # Chart components
+│   └── ui/                 # UI components
+└── lib/                    # Utilities and data
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Key Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **UserCard** - Display user statistics
+- **AttendanceChart** - Visual attendance tracking
+- **FinanceChart** - Financial analytics
+- **EventCalendar** - Event management
+- **Announcements** - Communication system
+- **Table** - Data display and management
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🚀 Deployment
 
-## Learn More
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically
 
-To learn more about Next.js, take a look at the following resources:
+### Manual Deployment
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Admin Dashboard:** Complete overview with charts and analytics
+- **User Management:** CRUD operations for all user types
+- **Responsive Design:** Mobile-friendly interface
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🔗 Links
+
+- **Live Demo:** [HappySchool Dashboard](https://school2-clean-bvfo9k1h8-islems-projects-9bb88426.vercel.app)
+- **GitHub:** [islem-habta/school2](https://github.com/islem-habta/school2)
+
+## 📞 Support
+
+For support or questions, please open an issue on GitHub.
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
